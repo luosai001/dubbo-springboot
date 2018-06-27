@@ -310,3 +310,8 @@ public class ConsumerApplication {
 			<version>3.5.1.Final</version>
 		</dependency>
 ```
+启动provider 
+启动consumer
+访问consumer http://localhost:8080/11
+访问consumer  http://localhost:8080/?world=HelloWorld
+访问provider rest接口   http://localhost:9092/user/register/12
